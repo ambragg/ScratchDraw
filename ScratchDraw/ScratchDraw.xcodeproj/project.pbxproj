@@ -13,6 +13,7 @@
 		F35DE2671B04D6FD0000424E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35DE2661B04D6FD0000424E /* Images.xcassets */; };
 		F35DE26A1B04D6FD0000424E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F35DE2681B04D6FD0000424E /* LaunchScreen.xib */; };
 		F35DE2761B04D6FD0000424E /* ScratchDrawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35DE2751B04D6FD0000424E /* ScratchDrawTests.swift */; };
+		F35DE2801B04D9F60000424E /* ScratchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35DE27F1B04D9F60000424E /* ScratchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F35DE26F1B04D6FD0000424E /* ScratchDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScratchDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F35DE2741B04D6FD0000424E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F35DE2751B04D6FD0000424E /* ScratchDrawTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchDrawTests.swift; sourceTree = "<group>"; };
+		F35DE27F1B04D9F60000424E /* ScratchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +79,10 @@
 		F35DE25C1B04D6FD0000424E /* ScratchDraw */ = {
 			isa = PBXGroup;
 			children = (
-				F35DE25F1B04D6FD0000424E /* AppDelegate.swift */,
 				F35DE2611B04D6FD0000424E /* ViewController.swift */,
 				F35DE2631B04D6FD0000424E /* Main.storyboard */,
-				F35DE2661B04D6FD0000424E /* Images.xcassets */,
-				F35DE2681B04D6FD0000424E /* LaunchScreen.xib */,
 				F35DE25D1B04D6FD0000424E /* Supporting Files */,
+				F35DE27F1B04D9F60000424E /* ScratchView.swift */,
 			);
 			path = ScratchDraw;
 			sourceTree = "<group>";
@@ -90,6 +90,9 @@
 		F35DE25D1B04D6FD0000424E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F35DE2681B04D6FD0000424E /* LaunchScreen.xib */,
+				F35DE2661B04D6FD0000424E /* Images.xcassets */,
+				F35DE25F1B04D6FD0000424E /* AppDelegate.swift */,
 				F35DE25E1B04D6FD0000424E /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -214,6 +217,7 @@
 			files = (
 				F35DE2621B04D6FD0000424E /* ViewController.swift in Sources */,
 				F35DE2601B04D6FD0000424E /* AppDelegate.swift in Sources */,
+				F35DE2801B04D9F60000424E /* ScratchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
