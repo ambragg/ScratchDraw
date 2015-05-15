@@ -8,11 +8,25 @@
 
 import UIKit
 
+var publicStrokeSize: Double = 0
 
 class ViewController: UIViewController {
     
+    @IBAction func changeStrokeSize(sender: UISlider) {
+        
+        let width = sender.value
+        publicStrokeSize = Double(width)
+        
+    }
     
-    
+    @IBAction func changeFillColor(sender: UIButton) {
+        
+        if let color = sender.backgroundColor {
+            
+            scratchPad.currentColor = color
+        }
+        
+    }
    
     
     @IBAction func changeColor(sender: UIButton) {
