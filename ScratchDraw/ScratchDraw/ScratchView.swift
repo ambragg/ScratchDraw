@@ -21,7 +21,7 @@ class ScratchView: UIView {
         CGContextSetLineWidth(context, 5.0)
         CGContextSetLineCap(context, kCGLineCapRound)
         
-   //     UIColor.redColor().set()
+       UIColor.blackColor().set()
         
         for scratch in scratches {
             
@@ -93,6 +93,7 @@ class Scratch {
     var fillColor: UIColor?
     var strokeColor: UIColor?
     var strokeSize: Double = 0
+    var shapeType: [CGRect] = []
     
     //line dash
     
